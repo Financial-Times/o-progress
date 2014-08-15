@@ -1,0 +1,11 @@
+{
+    "options": {
+        "sass": "demos/src/demo.scss",
+        "bodyClasses": "o-hoverable-on"
+    },
+    "demos": {
+        "spinner": {
+            "template": "demos/src/spinner.mustache"
+        }
+    }
+}

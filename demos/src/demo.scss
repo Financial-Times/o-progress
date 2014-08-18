@@ -1,0 +1,17 @@
+@import "../../main";
+
+.demo-progress-el{
+    background-color: #ccc;
+    border:3px solid #000;
+    position: relative;
+    width: 30%;
+    margin:0 auto;
+    padding:10px;
+
+}
+.demo__content{
+font-size: 15px;
+line-height: 20px;
+color: transparent;
+text-shadow: 0 0 5px rgba(0,0,0,.2);
+}

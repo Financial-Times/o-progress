@@ -3,7 +3,7 @@ $o-progress-is-silent : true !default;
 $o-progress-class-type: unquote("%");
 
 @if $o-progress-is-silent == false {
-  $o-progress-class-type: unquote(".");
+  $o-progress-class-type: unquote(".") !global;
 }
 
 //import from dependencies

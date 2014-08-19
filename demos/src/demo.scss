@@ -1,5 +1,3 @@
-$o-progress-is-silent: false;
-
 @import "../../main";
 
 .demo-progress-el{
@@ -9,8 +7,8 @@ $o-progress-is-silent: false;
     width: 30%;
     margin:0 auto;
     padding:10px;
-
 }
+
 .demo__content{
 font-size: 15px;
 line-height: 20px;

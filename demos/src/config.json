@@ -4,8 +4,8 @@
         "bodyClasses": "o-hoverable-on"
     },
     "demos": {
-        "spinner": {
-            "template": "demos/src/spinner.mustache"
+        "progress-indicator": {
+            "template": "demos/src/indicator.mustache"
         }
     }
 }

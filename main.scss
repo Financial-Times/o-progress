@@ -1,10 +1,3 @@
-$o-progress-is-silent : true !default;
-
-$o-progress-class-type: unquote("%");
-
-@if $o-progress-is-silent == false {
-  $o-progress-class-type: unquote(".") !global;
-}
 
 //import from dependencies
 @import "o-colors/main";

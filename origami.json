@@ -7,7 +7,7 @@
     "ci": {
         "travis": "https://api.travis-ci.org/repos/Financial-Times/o-progressIndicators/builds.json"
     },
-    "demos": [
-        "/demos/spinner.html"
+    "demos" : [
+        "/demos/progress-indicator.html"
     ]
 }

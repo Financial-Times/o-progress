@@ -1,5 +1,5 @@
 {
-  "name": "o-progressIndicators",
+  "name": "o-progress",
   "description": "Module for spinners, progress bars and loaders",
   "main": ["main.scss"],
   "ignore" : [

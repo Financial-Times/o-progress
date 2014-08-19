@@ -2,12 +2,9 @@
     "description": "Progress Indicators module",
     "origamiType": "module",
     "origamiVersion": 1,
-    "support": "https://github.com/Financial-Times/o-progressIndicators/issues",
+    "support": "https://github.com/Financial-Times/o-progress/issues",
     "supportStatus": "experimental",
     "ci": {
-        "travis": "https://api.travis-ci.org/repos/Financial-Times/o-progressIndicators/builds.json"
-    },
-    "demos" : [
-        "/demos/progress-indicator.html"
-    ]
+        "travis": "https://api.travis-ci.org/repos/Financial-Times/o-progress/builds.json"
+    }
 }

@@ -6,5 +6,9 @@
     "supportStatus": "experimental",
     "ci": {
         "travis": "https://api.travis-ci.org/repos/Financial-Times/o-progress/builds.json"
-    }
+    },
+
+    "demos" : [
++        "/demos/progress-indicator.html"
+     ]
 }

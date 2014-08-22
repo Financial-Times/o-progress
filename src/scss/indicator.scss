@@ -23,7 +23,7 @@
 }
 
 //TODO set up placehold o-progress
-.o-progress {
+#{$o-progress-class-type}o-progress {
 
     &__Block{
             position:absolute;

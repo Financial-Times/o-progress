@@ -1,75 +1,53 @@
-@-moz-keyframes spin {
-    0% {
-        -moz-transform: rotate(0deg);
-         transform: rotate(0deg);
-    }
-
-    100% {
-        -moz-transform: rotate(360deg);
-        transform: rotate(360deg);
-    };
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	};
 }
 
-@-webkit-keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    100% {
-        -webkit-transform: rotate(360deg);
-         transform: rotate(360deg);
-    };
+.o-progress__block {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 0 auto;
+	width: $o-progress-large;
+	height: $o-progress-large;
 }
 
-//TODO set up placehold o-progress
-.o-progress {
+.o-progress__indicator {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 0 auto;
+	width: $o-progress-large;
+	width: $o-progress-large;
+	height: $o-progress-large;
+	height: $o-progress-large;
+	background-image: $o-progress-spinner;
+	background-repeat: no-repeat;
+	animation: spin 1s infinite linear;
+}
 
-    &__Block{
-            position:absolute;
-            top:30px;
-            right:0;
-            bottom:0;
-            left: 0;
-            margin:0 auto;
-            width:$o-progress-large;
-            height:$o-progress-large;
-    }
+.o-progress__logo {
+	top: 50%;
+	left: 50%;
+	margin-top: -25%;
+	margin-left: -25%;
+	width: 100%;
+	width: $o-pogress-logo-size;
+	height: 100%;
+	height: $o-pogress-logo-size;
+	background-image: $o-progress-logo;
+	background-repeat: no-repeat;
+}
 
-
-        &__Indicator{
-            position:absolute;
-            margin:0 auto;
-            top:10px;
-            bottom:0;
-            left:0;
-            right:0;
-            width:$o-progress-large;
-            height:$o-progress-large;
-            background-repeat: no-repeat;
-            background-image:$o-progress-spinner;
-            -webkit-animation: spin 1s infinite linear;
-            width:$o-progress-large;
-            height:$o-progress-large;
-
-        }
-
-        &__Logo{
-            top: 50%;
-            left:50%;
-            width:100%;
-            height: 100%;
-            margin-top: -25%;
-            margin-left: -25%;
-            background-repeat: no-repeat;
-            background-image:$o-progress-logo;
-            width:$o-pogress-logo-size;
-            height:$o-pogress-logo-size;
-        }
-
-        &__Indicator-small{
-            width: $o-progress-small;
-            height:$o-progress-small;
-        }
-
+.o-progress__indicator-small {
+	width: $o-progress-small;
+	height: $o-progress-small;
 }

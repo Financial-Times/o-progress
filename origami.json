@@ -8,9 +8,14 @@
 		"travis": "https://api.travis-ci.org/repos/Financial-Times/o-progress/builds.json"
 	},
 
+	"demoOptions": {
+		"sass": "demos/src/demo.scss",
+		"documentClasses": "o-hoverable-on"
+	},
 	"demos" : [
 		{
-			"title": "progress-indicator",
+			"name": "progress-indicator",
+			"template": "demos/src/indicator.mustache",
 			"path": "demos/progress-indicator.html",
 			"expanded": true
 		}
